@@ -1,0 +1,11 @@
+Pasos
+
+    1.- Primero creamos el modelo [models/menu.js]
+    2.- Segundo creamos el controlador [controllers/menu.js]
+    3.- Tercero creamos la ruta [routers/menu.js]
+    
+    En app.js agregamos estas dos líneas
+
+    const menuRoutes = require("./routers/menu");
+
+    app.use(`/api/${API_VERSION}`, menuRoutes);
